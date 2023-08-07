@@ -4,14 +4,19 @@
 
 Implementation of the paper: 
 
-> **GPC: Generative and general pathology image classifier**
-> Anh Tien Nguyen and Jin Tae Kwak
+> **GPC: Generative and general pathology image classifier** \
+> Anh Tien Nguyen and Jin Tae Kwak \
 > *MedAGI: MICCAI 2023 1st International Workshop on Foundation Models for General Medical AI*
 
+#### Abstract
+> Deep learning has been increasingly incorporated into many computational pathology applications to improve its efficiency, accuracy, and robustness. Although successful, most previous approaches of using convolutional neural networks and Transformers have crucial drawbacks. There exist numerous tasks in pathology, but one needs to build a model per task, i.e., a task-specific model, thereby increasing the number of models, training resources, and cost. Moreover, transferring any task- specific model to another task is still a challenging problem. Herein, we propose a task-agnostic generative and general pathology image classifier, so called GPC, that aims at processing and learning from any kinds of pathology images as well as conducting any pathology classification tasks. Equipped with a convolutional neural network and a Transformer-based language model, GPC maps pathology images into a high-dimensional feature space and generates pertinent class labels as texts via the image- to-text classification mechanism. We evaluate GPC on six datasets for four different pathology image classification tasks. Experimental results show that GPC holds considerable potential for developing an effective and efficient universal model for pathology image analysis.
+
+
+#### Architecture
 ![Architecture](figure/overview.png)
 
 
-## Sample predictions
+#### Sample predictions
 
 ![prediction](figure/true.png)
 
